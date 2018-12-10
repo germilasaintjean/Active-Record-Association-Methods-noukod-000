@@ -3,6 +3,9 @@ class Song < ActiveRecord::Base
   belongs_to :genre
 
   def get_genre_name
+    # Model.columns_name
+  #  e.g. Genre.columns_name
+  genre = Genre.name
   end
 
   def drake_made_this
